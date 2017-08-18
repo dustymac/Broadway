@@ -1,19 +1,17 @@
 body {
   font-family: Helvetica;
   text-align: center;
-  font-size: 14px;
 }
 
-h1 {
+.title {
   font-size: 70px;
-  font-weight: bold;
 }
 
-h2 {
+.subtitle {
   font-size: 32px;
 }
 
-h3 {
+.section, .special {
   font-size: 23px;
 }
 
@@ -21,8 +19,12 @@ h3 {
   font-size: 18px;
 }
 
-h1, a, .menu {
+.title, a, .menu, .special {
   color: white;
+}
+
+.title, .subtitle, .section, .special {
+  font-weight: bold;
 }
 
 #hero {
