@@ -1,4 +1,4 @@
-body {
+html {
   font-family: Helvetica;
   text-align: center;
 }
@@ -15,16 +15,22 @@ body {
   font-size: 23px;
 }
 
-.menu {
+.menu a, {
   font-size: 18px;
 }
 
-.title, a, .menu, .special {
+.title, .menu a, .footer, .footer a, .special {
   color: white;
 }
 
 .title, .subtitle, .section, .special {
   font-weight: bold;
+}
+
+.footer {
+  font-size: 11px;
+  background-color: dimgray;
+  text-align: left;
 }
 
 #hero {
